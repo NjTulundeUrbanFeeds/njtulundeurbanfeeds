@@ -1,0 +1,17 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><title>Admin | NJ Tulunde Urban Feeds</title>
+<link rel="icon" href="/images/favicon.png"><link rel="stylesheet" href="/css/admin.css"></head><body>
+<header class="ah"><span><img src="/images/logo.png" alt="">NJ Tulunde Urban Feeds - Admin</span><span><a href="/">View site</a> <button id="out" hidden>Log out</button></span></header>
+<main><div id="m" role="status" aria-live="polite"></div>
+<section id="login" class="narrow"><h2>Log in</h2><form id="lf"><input id="em" type="email" autocomplete="username" placeholder="Admin email" required><input id="pw" type="password" autocomplete="current-password" placeholder="Password" required><button>Log in</button></form></section>
+<div id="app" hidden>
+<section><h2>Product categories</h2><p class="hint">Tap <b>+ Add</b> on a category to add a new product to it. The number shows how many products it has.</p><div id="cats" class="catrow"></div></section>
+<section><h2 id="pt">Add product</h2><form id="pf"><input type="hidden" name="id">
+<div class="g"><div><label>Product name<input name="name" maxlength="120" placeholder="Product name" required></label><label>Price<input name="price" maxlength="200" placeholder="e.g. UGX 20,000 per bag (blank = Call for Price)"></label><label>Badge (optional)<input name="tag" maxlength="40" placeholder="e.g. For Sale &amp; For Hire"></label></div>
+<div><label>Category<select name="cat" id="catsel"></select></label><label>Photo (JPG, PNG or WebP)<input type="file" name="img" id="imgf" accept="image/jpeg,image/png,image/webp"></label><img id="prev" class="prev" alt="" hidden><label class="chk"><input type="checkbox" name="pub" checked> Show on website</label></div></div>
+<label>Short description<textarea name="desc" rows="2" maxlength="600" placeholder="Short description" required></textarea></label>
+<button id="ps">Add product</button> <button type="button" class="d" id="pc" hidden>Cancel edit</button></form></section>
+<section><h2>Products</h2><div id="pl"></div></section>
+<section><h2>Intro video (home page)</h2><form id="sf"><input id="iv" placeholder="Paste a YouTube link, e.g. https://www.youtube.com/watch?v=..."><button>Save video</button></form></section>
+<section><h2 id="bt">Add blog article / video link</h2><form id="bf"><input type="hidden" name="id"><input name="title" maxlength="200" placeholder="Article title" required><input name="video" placeholder="YouTube link (optional)"><textarea name="desc" rows="6" placeholder="Description / article text. Press Enter for a new paragraph." required></textarea><button id="bs">Publish article</button> <button type="button" class="d" id="bc" hidden>Cancel edit</button></form></section>
+<section><h2>Articles</h2><div id="bl"></div></section></div></main>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script><script src="/js/config.js"></script><script src="/js/cats.js"></script><script src="/js/admin.js"></script></body></html>

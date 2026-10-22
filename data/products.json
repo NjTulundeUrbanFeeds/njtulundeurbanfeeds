@@ -1,0 +1,110 @@
+[
+ {
+  "id": 1,
+  "name": "Selling & Making Silage",
+  "desc": "Quality maize silage for cattle feed, plus expert silage making on your farm.",
+  "price": "UGX 380,000 per tonne | UGX 20,000 per bag",
+  "cat": "silage-making",
+  "img": "/images/p-silage.jpg",
+  "tag": ""
+ },
+ {
+  "id": 2,
+  "name": "Hay Pastures",
+  "desc": "Baled and shredded hay, Napier cuttings and Chloris Gayana seeds.",
+  "price": "Baled hay UGX 12,000 | Shredded UGX 15,000 per bag",
+  "cat": "animal-feeds",
+  "img": "/images/p-hay.jpg",
+  "tag": ""
+ },
+ {
+  "id": 3,
+  "name": "Silage Chopping Machines",
+  "desc": "Diesel-powered 8HP choppers for fast, even silage preparation.",
+  "price": "UGX 4,500,000 | Hire UGX 200,000 per day",
+  "cat": "chopping-machines",
+  "img": "/images/chop1.jpg",
+  "tag": "For Sale & For Hire"
+ },
+ {
+  "id": 4,
+  "name": "Silage Bags",
+  "desc": "Strong silage bags and covers that keep your silage airtight.",
+  "price": "Silage covers UGX 2,500 each",
+  "cat": "silage-making",
+  "img": "/images/hero.jpg",
+  "tag": ""
+ },
+ {
+  "id": 5,
+  "name": "Molasses",
+  "desc": "Energy-rich molasses for animal feed supplementation.",
+  "price": "20L UGX 55,000 | 5L UGX 20,000",
+  "cat": "animal-feeds",
+  "img": "/images/p-molasses.jpg",
+  "tag": ""
+ },
+ {
+  "id": 6,
+  "name": "Livestock Microbes",
+  "desc": "Bio Star livestock microbes and yeast for healthier, more productive animals.",
+  "price": "Bio Star 20L UGX 70,000 | Yeast 20L UGX 40,000",
+  "cat": "supplements",
+  "img": "/images/cows2.jpg",
+  "tag": ""
+ },
+ {
+  "id": 7,
+  "name": "Dry & Fresh Kikanja",
+  "desc": "Breweries waste, a low-cost protein feed for dairy cattle.",
+  "price": "Dry UGX 2,000/kg | Fresh UGX 90,000 per drum",
+  "cat": "animal-feeds",
+  "img": "/images/kikanja.jpg",
+  "tag": ""
+ },
+ {
+  "id": 8,
+  "name": "Animal Salts",
+  "desc": "Mineral salts and lick blocks for strong, healthy livestock.",
+  "price": "From UGX 4000/kg",
+  "cat": "supplements",
+  "img": "/images/blocks.jpg",
+  "tag": ""
+ },
+ {
+  "id": 9,
+  "name": "Feed & Water Troughs",
+  "desc": "Durable troughs for cattle, goats and other livestock.",
+  "price": "Call for Price",
+  "cat": "farm-tools",
+  "img": "/images/feeders.jpg",
+  "tag": ""
+ },
+ {
+  "id": 10,
+  "name": "Farm Outreach",
+  "desc": "We visit your farm to train workers and improve your feeding.",
+  "price": "Transport cost applies - Call for Price",
+  "cat": "services",
+  "img": "/images/outreach.jpg",
+  "tag": ""
+ },
+ {
+  "id": 11,
+  "name": "Milking Cans",
+  "desc": "Quality stainless steel milking cans in various sizes.",
+  "price": "Call for Price",
+  "cat": "farm-tools",
+  "img": "/images/p-cans.jpg",
+  "tag": ""
+ },
+ {
+  "id": 12,
+  "name": "All Other Farm Tools",
+  "desc": "Spades, rakes, buckets and every tool a working farm needs.",
+  "price": "Call for Price",
+  "cat": "farm-tools",
+  "img": "/images/tiles.jpg",
+  "tag": ""
+ }
+]

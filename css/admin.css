@@ -1,0 +1,16 @@
+body{font:16px system-ui,sans-serif;margin:0;background:#E8F5E9;color:#111}
+.ah{background:#0B5D2A;color:#FFD700;padding:12px 20px;display:flex;justify-content:space-between;align-items:center;gap:10px}.ah img{height:44px;vertical-align:middle;margin-right:10px}.ah a{color:#fff}
+main{max-width:980px;margin:auto;padding:16px}
+section{background:#fff;border-radius:10px;padding:18px;margin-bottom:18px;border-top:5px solid #FFD700}.narrow{max-width:380px;margin:40px auto}
+h2{margin-top:0;color:#0B5D2A}h3{margin:18px 0 6px;color:#0B5D2A;font-size:18px}
+label{display:block;font-size:14px;color:#333;font-weight:600}label.chk{display:flex;gap:8px;align-items:center;margin:6px 0 10px;font-weight:600}label.chk input{width:auto;margin:0}
+input,select,textarea{width:100%;padding:10px;margin:4px 0 10px;border:1px solid #999;border-radius:6px;font:inherit;box-sizing:border-box}
+button{background:#0B5D2A;color:#fff;border:0;padding:10px 18px;border-radius:6px;font-weight:700;cursor:pointer}
+button.e{background:#1f6feb;padding:6px 12px}button.d{background:#b3261e;padding:6px 12px}button.h{background:#6b6b6b;padding:6px 12px}button.a{background:#FFD700;color:#000;padding:6px 12px}
+.row{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid #eee;flex-wrap:wrap}.row img{width:54px;height:40px;object-fit:cover;border-radius:4px;vertical-align:middle}.row.off{opacity:.6}
+.badge{display:inline-block;background:#ddd;border-radius:10px;padding:1px 8px;font-size:12px;margin-left:6px}
+#m{display:none;padding:10px;border-radius:6px;margin-bottom:14px}.g{display:grid;grid-template-columns:1fr 1fr;gap:0 14px}@media(max-width:700px){.g{grid-template-columns:1fr}}
+.hint,small{color:#555}[hidden]{display:none!important}
+.catrow{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}@media(max-width:700px){.catrow{grid-template-columns:1fr 1fr}}
+.cc{border:1px solid #0B5D2A;border-radius:10px;padding:10px;display:flex;flex-direction:column;gap:4px;background:#f7fff8}.cc b{color:#0B5D2A}.cc small{display:block}.cc button{margin-top:6px}
+.prev{width:120px;height:80px;object-fit:cover;border-radius:6px;margin-bottom:8px}
